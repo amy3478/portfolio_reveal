@@ -40,11 +40,54 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background="images/bg.svg" style="background-size: 200px 200px;">
-					<h3>
-						Contribution
-					</h3>
+				<section data-background="images/bg.png">
+					<section>
+						<svg width="200px" height="200px">
+							<circle  id="my" cx="100" cy="100" r="6" fill="#ffffff">
+								<animate id="p1" attributeType="CSS" attributeName="opacity" dur="2s" values="0.6; 1; 0.6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
+								<animate attributeName="r" dur="2s" values="6; 8; 6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
+							</circle>
+						</svg>
+						<svg width="200px" height="200px" class="fragment">
+							<circle cx="100" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0">
+								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.8; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="0;my.click"/>
+								<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="0;my.click" />
+							</circle>
+							<circle cx="100" cy="100" r="36" stroke="#ffffff" stroke-width="1" opacity="0">
+								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.4; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="p2.begin+1s"/>
+								<animate attributeName="r" dur="2s" values="36; 72" keyTimes="0; 1" repeatCount="indefinite" begin="p2.begin+ 1s" />
+							</circle>
+						</svg>
+						<h3 class="fragment">
+							Contribution
+						</h3>
+						
+					</section>
+					<section>
+						<svg width="200px" height="200px">
+							<circle  id="my" cx="100" cy="100" r="6" fill="#ffffff">
+								<animate id="p1" attributeType="CSS" attributeName="opacity" dur="2s" values="0.6; 1; 0.6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
+								<animate attributeName="r" dur="2s" values="6; 8; 6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
+							</circle>
+							<g class="fragment">
+							<circle cx="100" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0" >
+								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.8; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="0;my.click"/>
+								<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="0;my.click" />
+							</circle>
+							<circle cx="100" cy="100" r="36" stroke="#ffffff" stroke-width="1" opacity="0">
+								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.4; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="p2.begin+1s"/>
+								<animate attributeName="r" dur="2s" values="36; 72" keyTimes="0; 1" repeatCount="indefinite" begin="p2.begin+ 1s" />
+							</circle>
+							</g>
+						</svg>
+						<h3 class="fragment">
+							Exploration
+						</h3>
+						
+					</section>
+					
 				</section>
+				
 
 				<section>
 					<h2>Hello There</h2>
@@ -67,8 +110,8 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
-				progress: true,
+				controls: false,
+				progress: false,
 				history: true,
 				center: true,
 
