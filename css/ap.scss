@@ -36,6 +36,28 @@ $dark-gray: #293742;
 	.ap-border--bottom-blue {
 		@include ap-border('bottom',1px,$blue);
 	}
+
+	.ap-text--label {
+		font-size: 0.5em;
+		font-weight: 600;
+	}
+
+	.ap-grid {
+	height: 800px;
+	}
+	.row {
+		height: 100%;
+	}
+	.col-xs {
+		height: 100%;
+	}
+	.ap-grid--item {
+		height: 33.33%;
+		width: 100%;
+		margin: 12px;
+		background-color: $blue;
+
+	}
 }
 .ap-canvas {
 	position: absolute;
@@ -46,6 +68,7 @@ $dark-gray: #293742;
 
 }
 svg {
+	overflow: visible;
 	.dot-blue {
 		fill: $blue;
 	}
@@ -64,18 +87,36 @@ svg {
 	.ap-title {
 
 		margin-bottom: 32px;
+	}
+	.ap-title--text {
+		display: table-cell;
 
-		.ap-title--text {
-			display: table-cell;
+		border-bottom-width: 4px;
+		-moz-border-image: -moz-linear-gradient(left, $blue 0%, $green 100%);
+	    -webkit-border-image: -webkit-linear-gradient(left, $blue 0%, $green 100%);
+	    border-image: linear-gradient(to right, $blue 0%, $green 100%);
+	    border-image-slice: 1;
 
-			border-bottom-width: 4px;
-			-moz-border-image: -moz-linear-gradient(left, $blue 0%, $green 100%);
-		    -webkit-border-image: -webkit-linear-gradient(left, $blue 0%, $green 100%);
-		    border-image: linear-gradient(to right, $blue 0%, $green 100%);
-		    border-image-slice: 1;
+	}
 
-		}
-		
+	.ap-subtitle {
+		display: flex;
+
+		justify-content: center;
+
+		margin-bottom: 16px;
+	}
+
+	.ap-subtitle--text {
+
+		border-bottom-width: 4px;
+		-moz-border-image: -moz-linear-gradient(left, $blue 0%, $green 100%);
+	    -webkit-border-image: -webkit-linear-gradient(left, $blue 0%, $green 100%);
+	    border-image: linear-gradient(to right, $blue 0%, $green 100%);
+	    border-image-slice: 1;
+
+		font-weight: 300;
+
 	}
 }
 #cover {
@@ -90,6 +131,45 @@ svg {
 #contribution {
 	// top: 0 !important;
 }
+
+/*********************************************
+* Slide 2: Timeline
+*********************************************/
+.reveal {
+	.ap-timeline {
+
+		display: flex;
+
+		position: absolute;
+		left: 0;
+		width: 33.33%;
+
+		text-align: centerl
+	}
+	.ap-timeline--line {
+		width: 20%;
+		height: 480px;
+		@include ap-border('left',2px,$blue);
+
+		-moz-border-image: -moz-linear-gradient(top, rgba($blue,0) 0%,$blue 50%, rgba($blue,0) 100%);
+	    -webkit-border-image: -webkit-linear-gradient(top, rgba($blue,0) 0%,$blue 50%, rgba($blue,0) 100%);
+	    border-image: linear-gradient(to bottom, rgba($blue,0) 0%,$blue 50%, rgba($blue,0) 100%);
+	    border-image-slice: 1;
+	}
+	.ap-timeline--dot {
+		position: absolute;
+		left: -5px;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}	
+	.ap-timeline--text {
+		margin: auto 0;
+		text-align: left;
+	}
+}
+
 
 /*********************************************
 * A animted loader

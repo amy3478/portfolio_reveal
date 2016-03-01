@@ -11,11 +11,25 @@ Reveal.addEventListener( 'fragmentshown', function( event ) {
     	},500);
     	
     }
+
+    if (event.fragment.id === "text-exploration") {
+    	$("#exploration .ap-canvas").animate({
+    		opacity: 0.4
+    	},500);
+    	
+    }
 }, false );
 
 Reveal.addEventListener( 'fragmenthidden', function( event ) {
     if (event.fragment.id === "text-contribution") {
     	$("#contribution .ap-canvas").animate({
+    		opacity: 1.0
+    	},500);
+    	
+    }
+
+    if (event.fragment.id === "text-exploration") {
+    	$("#exploration .ap-canvas").animate({
     		opacity: 1.0
     	},500);
     	

@@ -19,6 +19,25 @@
 .reveal .ap-border--bottom-blue {
   border-bottom: 1px solid #8793E0; }
 
+.reveal .ap-text--label {
+  font-size: 0.5em;
+  font-weight: 600; }
+
+.reveal .ap-grid {
+  height: 800px; }
+
+.reveal .row {
+  height: 100%; }
+
+.reveal .col-xs {
+  height: 100%; }
+
+.reveal .ap-grid--item {
+  height: 33.33%;
+  width: 100%;
+  margin: 12px;
+  background-color: #8793E0; }
+
 .ap-canvas {
   position: absolute;
   width: 100%;
@@ -26,27 +45,41 @@
   left: 0;
   top: -270px; }
 
-svg .dot-blue {
-  fill: #8793E0; }
-
-svg .dot-green {
-  fill: #00D8A2; }
-
-svg .dot-red {
-  fill: #EB7350; }
+svg {
+  overflow: visible; }
+  svg .dot-blue {
+    fill: #8793E0; }
+  svg .dot-green {
+    fill: #00D8A2; }
+  svg .dot-red {
+    fill: #EB7350; }
 
 /*********************************************
 * Slide 0: Cover
 *********************************************/
 .reveal .ap-title {
   margin-bottom: 32px; }
-  .reveal .ap-title .ap-title--text {
-    display: table-cell;
-    border-bottom-width: 4px;
-    -moz-border-image: -moz-linear-gradient(left, #8793E0 0%, #00D8A2 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #8793E0 0%, #00D8A2 100%);
-    border-image: linear-gradient(to right, #8793E0 0%, #00D8A2 100%);
-    border-image-slice: 1; }
+
+.reveal .ap-title--text {
+  display: table-cell;
+  border-bottom-width: 4px;
+  -moz-border-image: -moz-linear-gradient(left, #8793E0 0%, #00D8A2 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #8793E0 0%, #00D8A2 100%);
+  border-image: linear-gradient(to right, #8793E0 0%, #00D8A2 100%);
+  border-image-slice: 1; }
+
+.reveal .ap-subtitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px; }
+
+.reveal .ap-subtitle--text {
+  border-bottom-width: 4px;
+  -moz-border-image: -moz-linear-gradient(left, #8793E0 0%, #00D8A2 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #8793E0 0%, #00D8A2 100%);
+  border-image: linear-gradient(to right, #8793E0 0%, #00D8A2 100%);
+  border-image-slice: 1;
+  font-weight: 300; }
 
 #cover h3, #cover p {
   margin: 0; }
@@ -54,6 +87,37 @@ svg .dot-red {
 /*********************************************
 * Slide 1.1: Contribution
 *********************************************/
+/*********************************************
+* Slide 2: Timeline
+*********************************************/
+.reveal .ap-timeline {
+  display: flex;
+  position: absolute;
+  left: 0;
+  width: 33.33%;
+  text-align: centerl; }
+
+.reveal .ap-timeline--line {
+  width: 20%;
+  height: 480px;
+  border-left: 2px solid #8793E0;
+  -moz-border-image: -moz-linear-gradient(top, rgba(135, 147, 224, 0) 0%, #8793E0 50%, rgba(135, 147, 224, 0) 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, rgba(135, 147, 224, 0) 0%, #8793E0 50%, rgba(135, 147, 224, 0) 100%);
+  border-image: linear-gradient(to bottom, rgba(135, 147, 224, 0) 0%, #8793E0 50%, rgba(135, 147, 224, 0) 100%);
+  border-image-slice: 1; }
+
+.reveal .ap-timeline--dot {
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.reveal .ap-timeline--text {
+  margin: auto 0;
+  text-align: left; }
+
 /*********************************************
 * A animted loader
 *********************************************/
