@@ -12,22 +12,44 @@
 
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,400italic);
+// @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+// @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,400italic);
+@import url(../../lib/font/san-francisco/san-francisco.css);
+
+// -------------
+// Variables
+// -------------
+$blue: #8793E0;
+$green: #00D8A2;
+$dark-gray: #293742;
 
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #111;
+$backgroundColor: #fff;
 
-$mainFont: 'Source Sans Pro', sans-serif;
-$linkColor: #e7ad52;
+$mainFont: 'San Francisco Display', sans-serif;
+$mainColor: $dark-gray;
+$linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 20% );
-$headingFont: 'Montserrat', Impact, sans-serif;
+$headingFont: 'San Francisco Display', Impact, sans-serif;
+$headingColor: $dark-gray;
+$headingFontWeight: 300;
 $headingTextShadow: none;
-$headingLetterSpacing: -0.03em;
+$headingLetterSpacing: normal;
 $headingTextTransform: none;
-$selectionBackgroundColor: #e7ad52;
+$selectionBackgroundColor: lighten( $linkColor, 25% );
 $mainFontSize: 30px;
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.dark-theme {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
 
 
 // Theme template ------------------------------

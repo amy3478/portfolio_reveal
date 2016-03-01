@@ -17,8 +17,10 @@
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/portfolio.css" id="theme">
 
+
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css" >
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -29,6 +31,10 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
+		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>	
+
+		<link rel="stylesheet" href="css/ap.css">
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -36,70 +42,375 @@
 
 	<body>
 
-		<div class="reveal">
+		<div class="reveal"> <!-- reveal -->
 
 			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section data-background="images/bg.png">
-					<section>
-						<svg width="200px" height="200px">
-							<circle  id="my" cx="100" cy="100" r="6" fill="#ffffff">
-								<animate id="p1" attributeType="CSS" attributeName="opacity" dur="2s" values="0.6; 1; 0.6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
-								<animate attributeName="r" dur="2s" values="6; 8; 6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
-							</circle>
-						</svg>
-						<svg width="200px" height="200px" class="fragment">
-							<circle cx="100" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0">
-								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.8; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="0;my.click"/>
-								<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="0;my.click" />
-							</circle>
-							<circle cx="100" cy="100" r="36" stroke="#ffffff" stroke-width="1" opacity="0">
-								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.4; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="p2.begin+1s"/>
-								<animate attributeName="r" dur="2s" values="36; 72" keyTimes="0; 1" repeatCount="indefinite" begin="p2.begin+ 1s" />
-							</circle>
-						</svg>
-						<h3 class="fragment">
-							Contribution
-						</h3>
-						
-					</section>
-					<section>
-						<svg width="200px" height="200px">
-							<circle  id="my" cx="100" cy="100" r="6" fill="#ffffff">
-								<animate id="p1" attributeType="CSS" attributeName="opacity" dur="2s" values="0.6; 1; 0.6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
-								<animate attributeName="r" dur="2s" values="6; 8; 6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
-							</circle>
-							<g class="fragment">
-							<circle cx="100" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0" >
-								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.8; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="0;my.click"/>
-								<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="0;my.click" />
-							</circle>
-							<circle cx="100" cy="100" r="36" stroke="#ffffff" stroke-width="1" opacity="0">
-								<animate id="p2" attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.4; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="p2.begin+1s"/>
-								<animate attributeName="r" dur="2s" values="36; 72" keyTimes="0; 1" repeatCount="indefinite" begin="p2.begin+ 1s" />
-							</circle>
-							</g>
-						</svg>
-						<h3 class="fragment">
-							Exploration
-						</h3>
-						
-					</section>
-					
-				</section>
-				
+			<div class="slides"> <!-- slides -->
 
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 0: Cover \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section id="cover" class="text-left">
+					<div class="ap-title">
+						<h1 class="ap-title--text ap-border--bottom-blue">Hello</h1>
+					</div/>
+					<h3>My name is Amy Pu</h3>
+					<p>Product Designer</p>
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 0 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 1: Missions \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section data-background-iframe="https://api.mapbox.com/styles/v1/amy3478/cil8birlh00ef9rm8jxfnxj81.html?title=false&access_token=pk.eyJ1IjoiYW15MzQ3OCIsImEiOiJjaWwyZnd3cnIzYzRtdTlrc2NraTQ1NnBjIn0.B7KABjDDMBKhLMwp2wb1Tg#13.52/37.438499/-122.168711/0">
+					<!-- ==================== slide 1.1: Make the world a better place ==================== -->
+					<section id="contribution" class="has-dark-background dark-theme">
+						<div class="ap-canvas">
+							<svg width="800px" height="800px">
+								<g>
+									<circle cx="400" cy="400" r="6" fill="#ffffff">
+										<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.6; 1; 0.6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
+										<animate attributeName="r" dur="2s" values="6; 8; 6" keyTimes="0; 0.5; 1" repeatCount="indefinite" />
+									</circle>
+									<circle cx="400" cy="400" r="24" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+										<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.8; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite"/>
+										<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite"/>
+									</circle>
+									<circle cx="400" cy="400" r="36" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+										<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.4; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite"/>
+										<animate attributeName="r" dur="2s" values="36; 72" keyTimes="0; 1" repeatCount="indefinite" />
+									</circle>
+								</g>
+								<g class="fragment">
+									<g>
+										<circle class="dot-blue" cx="200" cy="100" r="3">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+									<g transform="scale(0.75)">
+										<circle class="dot-green" cx="100" cy="250" r="3" fill="#ffffff">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+									<g transform="translate(400,400) scale(0.75)">
+										<circle class="dot-blue" cx="200" cy="100" r="3">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+									<g transform="translate(500,-100)">
+										<circle class="dot-red" cx="100" cy="250" r="3" fill="#ffffff">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+									<g transform="translate(150,300) scale(0.75)">
+										<circle class="dot-red" cx="200" cy="100" r="3">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+									<g transform="translate(500,400)">
+										<circle class="dot-green" cx="100" cy="250" r="3" fill="#ffffff">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+									<g transform="translate(500,50) scale(0.75)">
+										<circle class="dot-blue" cx="200" cy="100" r="3">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="200" cy="100" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+									<g transform="translate(100,400)">
+										<circle class="dot-red" cx="100" cy="250" r="3" fill="#ffffff">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0.3; 0.7; 0.3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s" />
+											<animate attributeName="r" dur="2s" values="3; 5; 3" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="16" stroke="#ffffff" fill="transparent" stroke-width="1" opacity="0">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.6; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="16; 32" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+										<circle cx="100" cy="250" r="24" stroke="#ffffff" stroke-width="1" opacity="0" fill="transparent">
+											<animate attributeType="CSS" attributeName="opacity" dur="2s" values="0; 0.2; 0" keyTimes="0; 0.5; 1" repeatCount="indefinite" begin="1s"/>
+											<animate attributeName="r" dur="2s" values="24; 48" keyTimes="0; 1" repeatCount="indefinite" begin="1s"/>
+										</circle>
+									</g>
+								</g>
+							</svg>
+							
+						</div>
+						<div class="fragment" id="text-contribution">
+							<h1>
+								Contribution
+							</h1>	
+							<p>Make the world a better place!</p>
+						</div>
+					</section>
+					<!-- ==================== End of slide 1.1 ==================== -->
+
+					<!-- ==================== slide 1.2: Explore the world ==================== -->
+					<section data-background-iframe="https://api.mapbox.com/styles/v1/amy3478/cil9h1tr00039a7knnmrnd3hr.html?title=false&access_token=pk.eyJ1IjoiYW15MzQ3OCIsImEiOiJjaWwyZnd3cnIzYzRtdTlrc2NraTQ1NnBjIn0.B7KABjDDMBKhLMwp2wb1Tg#2/37.40951649966545/-122.1439260003275/0">
+						<div class="ap-canvas">
+							
+						</div>
+						<h1 class="fragment">
+							Exploration
+						</h1>
+					</section>
+					<!-- ==================== End of slide 1.2 ==================== -->
+			
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 1 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 2: Timeline \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
 				<section>
-					<h2>Hello There</h2>
-					<p>
+					<!-- ==================== slide 2.1: Childhood ==================== -->
+					<section>
+						<h3>Childhood</h3>
+					</section>
+					<!-- ==================== End of slide 2.1 ==================== -->
+
+					<!-- ==================== slide 2.2: University ==================== -->
+					<section>
+						<h3>University</h3>
+					</section>
+					<!-- ==================== End of slide 2.2 ==================== -->
+
+					<!-- ==================== slide 2.3: Work ==================== -->
+					<section>
+						<h3>Work</h3>
+					</section>
+					<!-- ==================== End of slide 2.3 ==================== -->
+
+					<!-- ==================== slide 2.4: Now ==================== -->
+					<section>
+						<h3>Now</h3>
+					</section>
+					<!-- ==================== End of slide 2.4 ==================== -->
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 2 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 3: Projects \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section>
+					<h3>My Work</h3>
+
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 3 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 4: Project 1 - Huntville \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section>
+					<!-- ==================== slide 4.1: Intro (the story) ==================== -->
+					<section>
+						<h3>HuntVille</h3>
+					</section>
+					<!-- ==================== End of slide 4.1 ==================== -->
+
+					<!-- ==================== slide 4.2: Challenges ==================== -->
+					<section>
+						<ul>
+							<li>
+								New experiment
+							</li>
+							<li>
+								First design work
+							</li>
+							<li>
+								Ship a real product
+							</li>
+						</ul>
+					</section>
+					<!-- ==================== End of slide 4.2 ==================== -->
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 4 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 5: Project 2 - BeeTalk \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section>
+					<!-- ==================== slide 5.1: Intro (the story) ==================== -->
+					<section>
+						<h3>BeeTalk</h3>
+					</section>
+					<!-- ==================== End of slide 5.1 ==================== -->
+
+					<!-- ==================== slide 5.2: Challenges ==================== -->
+					<section>
+						<ul>
+							<li>
+								First design job
+							</li>
+							<li>
+								Heavily involved
+							</li>
+							<li>
+								Million users
+							</li>
+						</ul>
+					</section>
+					<!-- ==================== End of slide 5.2 ==================== -->
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 5 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 6: Project 3 - BuzzNow \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section>
+					<!-- ==================== slide 6.1: Intro (the story) ==================== -->
+					<section>
+						<h3>BuzzNow</h3>
+					</section>
+					<!-- ==================== End of slide 6.1 ==================== -->
+
+					<!-- ==================== slide 6.2: Challenges ==================== -->
+					<section>
+						<ul>
+							<li>
+								Hackathon
+							</li>
+							<li>
+								Make it real
+							</li>
+						</ul>
+					</section>
+					<!-- ==================== End of slide 6.2 ==================== -->
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 6 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 7: Design philosophy \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section>
+					<!-- ==================== slide 7.1: Empathy ==================== --> 
+					<section>
+						<h3>Empathy</h3>
+					</section>
+					<!-- ==================== End of slide 7.1: Empathy ==================== --> 
+
+					<!-- ==================== slide 7.2: User ==================== --> 
+					<section>
+						<h3>Understand Users</h3>
+					</section>
+					<!-- ==================== End of slide 7.2: User ==================== --> 
+
+					<!-- ==================== slide 7.3: Team ==================== --> 
+					<section>
+						<h3>Commnunicate with the team</h3>
+					</section>
+					<!-- ==================== End of slide 7.3: Team ==================== --> 
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 7 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 8: Design habit \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section>
+					<!-- ==================== slide 8.1: Prototyping ==================== --> 
+					<section>
+						<h3>Prototyping</h3>
+					</section>
+					<!-- ==================== End of slide 8.1: Prototyping ==================== --> 
+
+					<!-- ==================== slide 8.2: FramerJS ==================== --> 
+					<section>
+						<h3>FramerJS</h3>
+					</section>
+					<!-- ==================== End of slide 8.2: FramerJS ==================== --> 
+
+					<!-- ==================== slide 8.3: Principle ==================== --> 
+					<section>
+						<h3>Commnunicate with the team</h3>
+					</section>
+					<!-- ==================== End of slide 8.3: Principle ==================== --> 
+				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 8 \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ slide 9: Thank you! \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+				<section data-background="#ffffff">
+					<h2 style="color: #343434;">HUNTVILLE</h2>
+					<div class="row">
+					<div class="col-xs">
+						<img src="images/event-card.gif" height="480px">	
+					</div>
+					<div class="col-xs">
+						<img src="images/airbnb_filter.gif" height="480px">
+					</div>
+					</div>
+					<p style="color: #343434;">
 						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
 					</p>
 				</section>
+				<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/ End of slide 9: Thank you! \/\/\/\/\/\/\/\/\/\/\/\/\/ -->
 
-				
+			</div> <!-- End of slides -->
 
+		</div> <!-- End of reveal -->
+		<div class="menu" style="position: absolute; left: 12px; bottom: 12px;">
+			<a href="http://amypu.com/about">Back</a>
+		</div>
+
+		<div id="loader-wrapper">
+			<div id="loader">
+				<div class="loader-circle"></div>
+				<div class="loader-line-mask">
+					<div class="loader-line"></div>
+				</div>	
+				<img id="loader-logo" src="images/logo.svg" alt="logo" />	
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -110,7 +421,7 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: false,
+				controls: true,
 				progress: false,
 				history: true,
 				center: true,
@@ -129,6 +440,8 @@
 			});
 
 		</script>
+
+		<script type="text/javascript" src="js/portfolio.js"></script>
 
 	</body>
 </html>

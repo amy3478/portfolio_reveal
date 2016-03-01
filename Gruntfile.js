@@ -35,6 +35,7 @@ module.exports = function(grunt) {
 			core: {
 				files: {
 					'css/reveal.css': 'css/reveal.scss',
+					'css/ap.css': 'css/ap.scss',
 				}
 			},
 			themes: {
@@ -125,7 +126,7 @@ module.exports = function(grunt) {
 				tasks: 'css-themes'
 			},
 			css: {
-				files: [ 'css/reveal.scss' ],
+				files: [ 'css/reveal.scss', 'css/ap.scss' ],
 				tasks: 'css-core'
 			},
 			html: {
