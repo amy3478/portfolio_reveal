@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="81px" height="52px" viewBox="0 0 81 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-276.000000, -640.000000)">
+            <g id="Group" transform="translate(277.000000, 641.000000)">
+                <path d="M61.3157895,23 L79,23" id="Shape" stroke="#00D8A2"></path>
+                <path d="M79,41 L61.3157895,41" id="Shape" stroke="#00D8A2"></path>
+                <path d="M76.4736842,50 L63,50 C61.604754,50 60.4736842,48.8705352 60.4736842,47.4772727 L60.4736842,20.5681818 C60.4736842,19.1749177 61.604754,18.0454545 63,18.0454545 L76.4736842,18.0454545 C77.8689286,18.0454545 79,19.1749177 79,20.5681818 L79,47.4772727 C79,48.8705352 77.8689286,50 76.4736842,50 L76.4736842,50 Z" id="Shape" stroke="#00D8A2"></path>
+                <ellipse id="Oval" stroke="#00D8A2" cx="69.7368421" cy="45.7954545" rx="0.842105263" ry="0.840909091"></ellipse>
+                <path d="M47.8421053,18 L60.4736842,18" id="Shape" stroke="#8793E0"></path>
+                <path d="M60.4736842,36 L47.8421053,36" id="Shape" stroke="#8793E0"></path>
+                <path d="M60.4736842,44.9545455 L49.5263158,44.9545455 C48.1310701,44.9545455 47,43.8250807 47,42.4318182 L47,15.5227273 C47,14.1294635 48.1310701,13 49.5263158,13 L63,13 C64.395246,13 65.5263158,14.1294635 65.5263158,15.5227273 L65.5263158,18.0454545" id="Shape" stroke="#8793E0"></path>
+                <ellipse id="Oval" stroke="#8793E0" cx="56.2631579" cy="40.75" rx="0.842105263" ry="0.840909091"></ellipse>
+                <path d="M44,32 L0,32 L0,3 C0,1.3431458 1.3431458,0 3,0 L41,0 C42.6568527,0 44,1.3431458 44,3 L44,32 L44,32 Z" id="Shape" stroke="#8793E0"></path>
+                <path d="M22,32 L22,38" id="Shape" stroke="#8793E0"></path>
+                <path d="M16,39 L28,39" id="Shape" stroke="#8793E0"></path>
+                <path d="M1,27 L43,27" id="Shape" stroke="#8793E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-701.000000, -650.000000)">
+            <g id="Group-3" transform="translate(702.000000, 651.000000)">
+                <g id="Group-5" transform="translate(25.000000, 25.000000)" stroke="#00D8A2">
+                    <path d="M30.2222222,39 L1.77777778,39 C0.795938311,39 0,38.2063221 0,37.2272727 L0,1.77272727 C0,0.793677123 0.795938311,0 1.77777778,0 L21.3333452,0 L32,10.6363636 L32,37.2272727 C32,38.2063221 31.2040609,39 30.2222222,39 L30.2222222,39 Z" id="Shape"></path>
+                    <path d="M21.3333333,0.886363636 L21.3333333,10.6363636 L32,10.6363636" id="Shape"></path>
+                    <path d="M13.3333333,17.7272727 L8,23.0454545 L13.3333333,28.3636364" id="Shape"></path>
+                    <path d="M18.6666667,28.3636364 L24,23.0454545 L18.6666667,17.7272727" id="Shape"></path>
+                </g>
+                <g id="Group-4" stroke="#8793E0">
+                    <circle id="Oval" cx="7.27272727" cy="7.27272727" r="0.909090909"></circle>
+                    <circle id="Oval" cx="14.5454545" cy="7.27272727" r="0.909090909"></circle>
+                    <circle id="Oval" cx="21.8181818" cy="7.27272727" r="0.909090909"></circle>
+                    <path d="M0,14 L80,14" id="Shape"></path>
+                    <path d="M76.3636364,80 L3.63636364,80 C1.63636364,80 0,78.3636364 0,76.3636364 L0,3.63636364 C0,1.63636364 1.63636364,0 3.63636364,0 L76.3636364,0 C78.3636364,0 80,1.63636364 80,3.63636364 L80,76.3636364 C80,78.3636364 78.3636364,80 76.3636364,80 L76.3636364,80 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="80px" viewBox="0 0 82 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>magicstic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop-HD" transform="translate(-435.000000, -826.000000)">
+            <g id="magicstic" transform="translate(436.000000, 826.000000)">
+                <rect id="Rectangle-path" stroke="#8793E0" transform="translate(27.844350, 52.230879) rotate(-45.000000) translate(-27.844350, -52.230879) " x="-6.3891538" y="47.6753237" width="68.4670067" height="9.11111135"></rect>
+                <path d="M76.6136655,3.30744105 L71.2994593,13.7603222 L79.57652,22.0557764 L67.8415333,20.3945169 L62.4405462,30.9343778 L60.566004,19.3907598 L48.9828942,17.5772873 L59.5753202,12.0881909 L57.9068964,0.337996733 L66.1839573,8.63345056 L76.6136655,3.30744105 Z" id="Shape" stroke="#00D8A2"></path>
+                <path d="M41.1230711,32.480087 L47.5513145,38.9226155" id="Shape" stroke="#8793E0"></path>
+                <path d="M61.8181818,56.020609 L64.2019029,60.3887595 L68.560368,62.7777778 L64.2019029,65.166796 L61.8181818,69.5349466 L59.4344607,65.166796 L55.0759956,62.7777778 L59.4344607,60.3887595 L61.8181818,56.020609 Z" id="Shape" stroke="#8793E0"></path>
+                <path d="M18.1818182,10.4650499 L22.4940144,18.36711 L30.3785533,22.6888889 L22.4940144,27.0106677 L18.1818182,34.9127278 L13.869622,27.0106677 L5.985084,22.6888889 L13.869622,18.36711 L18.1818182,10.4650499 Z" id="Shape" stroke="#8793E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

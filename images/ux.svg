@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="98px" height="106px" viewBox="0 0 98 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-423.000000, -656.000000)">
+            <g id="Group-2" transform="translate(424.000000, 656.000000)">
+                <path d="M40,40.7060063 L2,40.7060063 C0.8954306,40.7060063 0,39.8105748 0,38.7060063 L0,2.70600628 C0,1.60143688 0.8954306,0.706006283 2,0.706006283 L40,0.706006283 C41.1045685,0.706006283 42,1.60143688 42,2.70600628 L42,38.7060063 C42,39.8105748 41.1045685,40.7060063 40,40.7060063 L40,40.7060063 Z" id="Shape" stroke="#8793E0"></path>
+                <path d="M21,0.706006283 L21,40.7060063" id="Shape" stroke="#8793E0"></path>
+                <path d="M21,14 L42,14" id="Shape" stroke="#8793E0"></path>
+                <path d="M21,26 L42,26" id="Shape" stroke="#8793E0"></path>
+                <path d="M67,46 L70,46" id="Shape" stroke="#8793E0"></path>
+                <path d="M74,46 L85,46" id="Shape" stroke="#8793E0"></path>
+                <path d="M88,46 L90,46" id="Shape" stroke="#8793E0"></path>
+                <path d="M67,50 L71,50" id="Shape" stroke="#8793E0"></path>
+                <path d="M75,50 L78,50" id="Shape" stroke="#8793E0"></path>
+                <path d="M81,50 L90,50" id="Shape" stroke="#00D8A2"></path>
+                <path d="M67,54 L75,54" id="Shape" stroke="#00D8A2"></path>
+                <path d="M79,54 L80,54" id="Shape" stroke="#00D8A2"></path>
+                <path d="M83,54 L84,54" id="Shape" stroke="#00D8A2"></path>
+                <path d="M67,58 L70,58" id="Shape" stroke="#00D8A2"></path>
+                <path d="M74,58 L76,58" id="Shape" stroke="#00D8A2"></path>
+                <path d="M79,58 L88,58" id="Shape" stroke="#00D8A2"></path>
+                <path d="M67,62 L68,62" id="Shape" stroke="#00D8A2"></path>
+                <path d="M72,62 L78,62" id="Shape" stroke="#00D8A2"></path>
+                <path d="M81,62 L91,62" id="Shape" stroke="#00D8A2"></path>
+                <path d="M67,66 L76,66" id="Shape" stroke="#00D8A2"></path>
+                <path d="M80,66 L86,66" id="Shape" stroke="#00D8A2"></path>
+                <path d="M89,66 L91,66" id="Shape" stroke="#00D8A2"></path>
+                <path d="M67,70 L68,70" id="Shape" stroke="#00D8A2"></path>
+                <path d="M72,70 L81,70" id="Shape" stroke="#00D8A2"></path>
+                <path d="M94,76 L54,76 C52.9,76 52,75.1 52,74 L52,34 C52,32.9 52.9,32 54,32 L94,32 C95.1,32 96,32.9 96,34 L96,74 C96,75.1 95.1,76 94,76 L94,76 Z" id="Shape" stroke="#00D8A2"></path>
+                <circle id="Oval" stroke="#00D8A2" cx="56" cy="36" r="0.5"></circle>
+                <circle id="Oval" stroke="#00D8A2" cx="60" cy="36" r="0.5"></circle>
+                <circle id="Oval" stroke="#00D8A2" cx="64" cy="36" r="0.5"></circle>
+                <path d="M52,40 L96,40" id="Shape" stroke="#00D8A2"></path>
+                <path d="M62,40 L62,76" id="Shape" stroke="#00D8A2"></path>
+                <path d="M56,46 L58,46" id="Shape" stroke="#00D8A2"></path>
+                <path d="M56,51 L58,51" id="Shape" stroke="#00D8A2"></path>
+                <path d="M56,56 L58,56" id="Shape" stroke="#00D8A2"></path>
+                <path d="M56,61 L58,61" id="Shape" stroke="#00D8A2"></path>
+                <path d="M56,66 L58,66" id="Shape" stroke="#00D8A2"></path>
+                <path d="M56,71 L58,71" id="Shape" stroke="#00D8A2"></path>
+                <path d="M40,105 L2,105 C0.8954306,105 0,104.104568 0,103 L0,67 C0,65.8954306 0.8954306,65 2,65 L40,65 C41.1045685,65 42,65.8954306 42,67 L42,103 C42,104.104568 41.1045685,105 40,105 L40,105 Z" id="Shape" stroke="#8793E0"></path>
+                <path d="M21,65 L21,105" id="Shape" stroke="#8793E0"></path>
+                <path d="M21,79 L42,79" id="Shape" stroke="#8793E0"></path>
+                <path d="M21,91 L42,91" id="Shape" stroke="#8793E0"></path>
+                <path d="M21,85 L0,85" id="Shape" stroke="#8793E0"></path>
+                <path d="M16,47.1758933 L19,44 L22.2005536,47.1758933" id="Shape" stroke="#8793E0"></path>
+                <path d="M28,58.9268293 L25,62 L21.7994464,58.9268293" id="Shape" stroke="#8793E0"></path>
+                <path d="M19,44.4390244 L19,45.3170732" id="Shape" stroke="#8793E0"></path>
+                <path d="M19,47.0731707 L19,59.804878" id="Shape" stroke="#8793E0" stroke-dasharray="1.714285714285714,1.714285714285714"></path>
+                <path d="M19,60.6829268 L19,61.5609756" id="Shape" stroke="#8793E0"></path>
+                <path d="M25,45.3170732 L25,46.195122" id="Shape" stroke="#8793E0"></path>
+                <path d="M25,47.9512195 L25,59.804878" id="Shape" stroke="#8793E0" stroke-dasharray="1.714285714285714,1.714285714285714"></path>
+                <path d="M25,60.6829268 L25,61.5609756" id="Shape" stroke="#8793E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>
